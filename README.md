@@ -35,4 +35,17 @@ Throughout these labs, you'll develop not just coding skills, but also durable s
 
 <br>
 
+## How to Get the Most Out of These Labs
+* **Experiment**: Don't be afraid to try new things and see what happens. That's how you learn!
+
+* **Read Carefully**: Pay attention to instructions and comments within the code.
+
+* **Debug**: Errors are a natural part of coding. Practice problem-solving when you encounter them.
+
+* **Collaborate**: Work with your peers and coaches. Teaching others or asking for help can be incredibly beneficial.
+
+* **Leverage AI**: Use AI tools responsibly to understand concepts, get unstuck, and explore new ideas. Think about *how* you prompt to get the best results.
+
+<br>
+
 We're excited to see what you create! Happy coding! :)
