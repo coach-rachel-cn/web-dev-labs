@@ -1,0 +1,51 @@
+<!-- LAB 6 DEMO HTML: CSS POSITIONING -->
+<!-- This HTML file shows the different values the CSS position property can have. This is a reference file and you do not need to work on this file, unless you'd like to experiment!-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Lab 5: CSS Positioning Demo</title>
+
+    <link rel="stylesheet" href="/lab6/demo.css" />
+  </head>
+  <body>
+    <h1>Understanding the CSS Position Property</h1>
+    <p>This demo illustrates how the values for the CSS position property affect HTML element placement on a web page.</p>
+
+    <div class="demo-section">
+      <h2>1. Static (Default)</h2>
+      <div class="static-box">Static Box (Default)</div>
+      <p>This box has <strong>position: static;</strong> This is the default position value. It flows normally in the document and cannot be moved with `top`, `bottom`, `left`, `right` properties.</p>
+    </div>
+
+    <div class="demo-section">
+      <h2>2. Relative</h2>
+      <div class="relative-parent">
+        <div class="relative-box">Relative Box</div>
+        <p>This box has <strong>position: relative;</strong>. It stays in the document flow but can be moved relative to its normal position using `top`, `bottom`, `left`, or `right`. It can also serve as the positioning context for `absolute` children.</p>
+      </div>
+    </div>
+
+    <div class="demo-section">
+      <h2>3. Absolute</h2>
+      <div class="absolute-container">
+        <p>This container relative position to act as the positioning context for the absolute box inside.</p>
+        <div class="absolute-box">Absolute Box</div>
+        <p>This box has <strong>position: absolute;</strong>. It's removed from the document flow and positioned relative to its nearest *positioned* ancestor (like its `.absolute-container` parent). If no positioned ancestor exists, it's positioned relative to the `<body>`.</p>
+      </div>
+    </div>
+
+    <div class="demo-section high-content">
+      <h2>4. Fixed</h2>
+      <div class="fixed-box">Fixed Box</div>
+      <p>Scroll down to see this box stay in place! A <strong>position: fixed;</strong> box is positioned relative to the browser viewport. It stays in the same spot even when the page scrolls. Use `top`, `bottom`, `left`, `right` to place it.</p>
+      <p>This container has filler content to make the page scrollable:</p>
+      <div class="scroll-filler"></div>
+    </div>
+
+  </body>
+</html>

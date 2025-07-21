@@ -1,0 +1,126 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- CSS Transitions Challenges Start Here! --- */
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #28a745; /* Green */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+
+    /* Challenge 1: Add a transition to this box! */
+    /* Add a transition property here. Start with 'background-color' and '0.5s' duration. */
+    /* Example: transition: background-color 0.5s ease-in-out; */
+    
+}
+
+/* Challenge 2: Define what happens on hover */
+.box:hover {
+    background-color: #007bff; /* Blue */
+    width: 200px; /* Make it wider */
+    height: 200px; /* Make it taller */
+    transform: rotate(10deg); /* Rotate it slightly */
+}
+
+
+/* 🚀 STRETCH CHALLENGES! */
+
+/* Stretch 1: Transition for a Circle */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c; /* Red */
+    border-radius: 50%; /* Makes it a circle */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 20px;
+
+    /* Add a transition here for background-color, transform, and border-radius */
+    /* Example: transition: background-color 0.4s ease, transform 0.4s ease, border-radius 0.4s ease; */
+    
+}
+
+.circle:hover {
+    background-color: #f1c40f; /* Yellow */
+    transform: scale(1.2); /* Make it bigger */
+    border-radius: 10px; /* Make it a rounded square */
+}
+
+/* Stretch 2: Growing Square with multiple transitions */
+.square-grow {
+    width: 100px;
+    height: 100px;
+    background-color: #9b59b6; /* Purple */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 5px;
+
+    /* Add a transition for width, height, and background-color */
+    /* Example: transition: width 0.3s linear, height 0.3s linear, background-color 0.3s linear; */
+    
+}
+
+.square-grow:hover {
+    width: 180px;
+    height: 120px;
+    background-color: #34495e; /* Darker blue */
+}
+
+/* Stretch 3: Explore transition-timing-function and transition-delay */
+/* Try different timing functions like 'linear', 'ease-in', 'ease-out', 'ease-in-out' on your .box. */
+/* Add a transition-delay to one of your transitions to make it start after a short pause. */

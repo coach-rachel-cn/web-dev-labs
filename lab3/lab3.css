@@ -1,0 +1,89 @@
+/*
+LAB 3: STYLING WITH CSS!
+This is your CSS file (styles.css) where you'll bring your web page to life!
+*/
+
+/* Challenge 2: Body Styles */
+/* Apply a background-color to the entire page. */
+/* Change the default font-family for all text on the page. */
+/* You can also set a default color for the text here. */
+
+body {
+    /* Your code here */
+    font-family: sans-serif;
+
+}
+
+
+/* Challenge 3: Heading Styles */
+/* Change the h1 color, font-size, and alignment with text-align. */
+h1 {
+
+}
+
+/* Challenge 4: Paragraph Styles */
+/* Change the font-family and line-height of the p elements for better readability. */
+p {
+
+}
+
+
+/* Challenge 5: Box Model - Borders */
+/* Add a border around your ul. Experiment with different border-style properties (e.g., solid, dashed, double) */
+/* Try changing the border-color and border-width for the ul */
+ul { 
+    /* Your code here */
+
+}
+
+
+/* Challenge 6: Box Model - Padding */
+/* Add `padding` to the list items (li) in your ul */
+/* See how padding adds space *inside* the border of an element, between its content and its border */
+li {
+    
+}
+
+
+/* Challenge 7: Adjusting Size, Alignment, and Margin */
+img {
+    /* Set a specific width and height for your image (because it's huge!) */
+
+    /* Use `display: block;` and `margin: 0 auto;` to center your image horizontally on the page. */
+    /* If you are not sure what these properties are doing, look them up using documentation! */
+
+
+    /* Box Model practice - add margin to your image */
+    /* See how margin adds space *outside* the border, pushing other elements away from it. */
+
+    
+}
+
+
+/* Challenge 8: Box Model - Choose Your Own Adventure! */
+/* Continue experimenting with padding and margin adjustments for your HTML elements */
+/* Using both padding and margin creates space for the content on your page to breathe, improving readability */
+
+
+
+/* 🚀 STRETCH CHALLENGES! Go further with your CSS skills! */
+
+/* Stretch CSS 1: Advanced CSS Styling */
+/* Experiment with properties like border-radius box-shadow, etc. to create additional visual effects for your HTML content */
+/* You can explore more CSS properties here: https://www.w3schools.com/CSSref/index.php */
+
+
+/* Stretch CSS 2: Negative Margins/Padding */
+/* Try using a negative `margin` value on an element. What happens? */
+/* Or, apply a large padding and then a negative `margin`. How do they interact? */
+
+
+/* Stretch CSS 3: Revisit Your Influential Person from last week! */
+/* Navigate back to your Lab 2 HTML and add CSS styling to spruce it up! */
+/* You will need to create a styles.css file and link to it in the HTML */
+
+
+/* Stretch CSS 4: AI for CSS Properties & Debugging */
+/* If you're stuck on a particular style or want to achieve a specific visual effect, */
+/* describe it to an AI tool like Gemini. Ask it for suggestions on which CSS properties to use. */
+/* If your CSS isn't working as expected, describe the problem and your code to Gemini for debugging help! */

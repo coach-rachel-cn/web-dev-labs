@@ -1,0 +1,116 @@
+/*
+LAB 6 DEMO STYLESHEET: CSS POSITIONING
+This stylesheet supports the demo.html file and explicitly shows the different values the CSS position property can have. This is a reference stylesheet and you do not need to work on this file, unless you'd like to experiment!
+*/
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.demo-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 25px;
+    min-height: 150px; /* Ensure some height for visibility */
+}
+
+/* Basic box styling for all position examples */
+.static-box, .relative-box, .absolute-box, .fixed-box {
+    width: 100px;
+    height: 50px;
+    background-color: #6c757d; /* Default gray */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 1px solid #545b62;
+    margin: 10px; /* Default margin for flow elements */
+}
+
+/* STATIC POSITIONING */
+.static-box {
+    /* position: static; is default, no properties needed */
+    background-color: #6c757d; /* Gray */
+}
+
+/* RELATIVE POSITIONING */
+.relative-parent {
+    border: 1px dashed #a0a0a0;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.relative-box {
+    position: relative;
+    background-color: #ffc107; /* Yellow */
+    top: 15px;  /* Moves down 15px from its normal position */
+    left: 15px; /* Moves right 15px from its normal position */
+}
+
+/* ABSOLUTE POSITIONING */
+.absolute-container {
+    position: relative; /* Acts as the positioning context */
+    border: 1px dashed #007bff;
+    padding: 10px;
+    margin-top: 15px;
+    min-height: 200px; /* Give it space to show absolute positioning */
+}
+
+.absolute-box {
+    position: absolute;
+    background-color: #dc3545; /* Red */
+    top: 20px;
+    right: 20px;
+    /* This box is positioned relative to .absolute-container */
+}
+
+/* FIXED POSITIONING */
+.high-content {
+    min-height: 600px; /* Ensures the page is scrollable */
+    margin-bottom: 100px; /* Space for the fixed box at the bottom */
+}
+
+.scroll-filler {
+    height: 400px; /* Adds more content to make scrolling obvious */
+    background-color: #f8f9fa;
+    border: 1px dashed #eee;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 400px;
+    color: #999;
+}
+
+.fixed-box {
+    position: fixed;
+    background-color: #28a745; /* Green */
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: 60px;
+    font-size: 1em;
+    z-index: 1000; /* Ensures it stays on top */
+    border-radius: 5px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

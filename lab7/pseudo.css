@@ -1,0 +1,145 @@
+/* General body and section styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 40px;
+}
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* --- Pseudo-Class Challenges Start Here! --- */
+
+/* 1. Button Styling with :hover and :active */
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+/* Challenge: Change the button's background and text color when hovered over */
+.button:hover {
+    /* Your code here */
+    
+}
+
+/* Challenge: Change the button's background and text color when actively clicked */
+.button:active {
+    /* Your code here */
+    
+}
+
+.submit-button {
+    background-color: #6c757d; /* Gray */
+}
+
+/* 2. Input Field Styling with :focus */
+input[type="text"] {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 1em;
+}
+
+/* Challenge: Add a distinct border or outline when the input field is focused */
+input[type="text"]:focus {
+    /* Your code here */
+   
+}
+
+/* 3. List Item Styling with :nth-child(), :first-child, :last-child */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border-left: 5px solid #007bff;
+}
+
+/* Challenge: Style the 2nd list item with a different background color */
+li:nth-child(2) {
+    /* Your code here */
+
+}
+
+/* Challenge: Style every odd list item with a different text color */
+li:nth-child(odd) {
+    /* Your code here */
+}
+
+/* Challenge: Style the first list item with a larger font size */
+li:first-child {
+    /* Your code here */
+}
+
+/* Challenge: Style the last list item with an underline */
+li:last-child {
+    /* Your code here */
+}
+
+/* 4. Paragraph Styling with :first-child and :last-child (within their parent) */
+.paragraph {
+    border: 1px dashed #999;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Challenge: Make the first paragraph in the .paragraph-set bold */
+.paragraph:first-child {
+    /* Your code here */
+}
+
+/* Challenge: Make the last paragraph in the .paragraph-set italic */
+.paragraph:last-child {
+    /* Your code here */
+}
+
+/* 5. Styling Links */
+a {
+    color: #007bff;
+    /* text-decoration: none; */
+}
+
+/* Challenge: Style links when they are hovered over or have been visited */
+a:hover {
+    /* Your code here */
+}
+
+a:visited {
+    /* Your code here */
+}

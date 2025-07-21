@@ -1,0 +1,130 @@
+/* LAB 6: FLEXBOX FUN! 🤸
+This is your CSS file where you'll make the magic happen with Flexbox! Your lab challenges start on line 47! */
+
+/* Basic body styling - feel free to adjust! */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1, p {
+    color: #151515;
+}
+
+/* Flex Item Base Styles
+These styles give your boxes a consistent look */
+.box {
+    width: 120px;
+    height: 120px;
+    margin: 10px; /* Provides some default space around boxes */
+    display: flex; /* Makes content inside the box itself a flex container */
+    flex-direction: column; /* Stacks emoji and text vertically inside the box */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.emoji {
+    font-size: 3em; /* Make the emoji big and visible */
+    margin-top: 15px;
+}
+
+/* Individual box colors */
+.red { background-color: #e74c3c; }
+.blue { background-color: #3498db; }
+.green { background-color: #2ecc71; }
+.yellow { background-color: #f1c40f; }
+.purple { background-color: #be83d5; }
+
+
+/* ---------------------------------------------------
+FLEXBOX CHALLENGES START HERE!
+You'll be working mostly with the .flex-container class.
+------------------------------------------------------- */
+.container {
+    border: 2px dashed #999; /* Just to visualize the container */
+    padding: 20px;
+    min-height: 300px; /* Give it some height to see alignment changes */
+    margin-top: 30px;
+    /* Challenge 2: Make it a Flex Container!
+    Add display: flex; to make it a flex container. What happens to the boxes? */
+
+
+
+    /* Challenge 3: Control the direction of the container
+    Use the flex-direction property on your container
+    Try out the values: row (default), row-reverse, column, and column-reverse */
+
+
+
+    /* Challenge 4: Justify Content (main axis) 
+    Use justify-content on your container 
+    Experiment with: flex-start, flex-end, center, space-between, space-around, space-evenly */
+
+
+
+    /* Challenge 5: Align Items (cross axis)
+    Use align-items on your .flex-container
+    Experiment with: flex-start, flex-end, center, stretch, baseline
+    Remember that stretch only works if items don't have a defined height. */
+
+
+
+    /* Challenge 6: Wrapping Flex Items
+    If your boxes overflow the container, use flex-wrap on your .flex-container
+    Try wrap and wrap-reverse. Resize your preview window to see the effect! */
+
+
+    
+}
+
+
+/* Challenge 9: Individual Item Alignment (Align Self)
+Select an individual .box (e.g., .box.blue)
+Use align-self to override the align-items property for *just* that box
+Try flex-start, flex-end, center, stretch */
+
+.box.blue {
+    /* Your code here */
+
+}
+
+
+/* 🚀 STRETCH CHALLENGES! Go further with your Flexbox skills! */
+
+/* Stretch CSS 1: Order of Items
+Use the order property on individual .box items to change their visual order, regardless of their HTML order.
+Assign different integer values to different boxes. */
+
+/*
+.box.red { order: 2; }
+.box.green { order: -1; }
+*/
+
+
+/* Stretch CSS 2: Flex Grow and Shrink
+Apply flex-grow: 1; to all .box items. What happens when you resize the window?
+Try giving different flex-grow values to specific boxes (e.g., .box.blue { flex-grow: 2; }).
+Experiment with flex-shrink: 0; to prevent items from shrinking. */
+
+
+
+/* Stretch CSS 3: Centering a Single Item
+If you had only one box in your container, how would you perfectly center it (both horizontally and vertically) using Flexbox?
+Hint: You'll need justify-content and align-items on the container */
+
+
+
+/* Stretch CSS 4: AI for Flexbox Help
+If you're trying to achieve a specific layout but aren't sure which Flexbox properties to use,
+describe your desired layout to an AI tool like Gemini. Ask it for suggestions and examples!
+You can also ask Gemini to explain a Flexbox property in a simpler way if you're confused. */
+
+
+
