@@ -1,4 +1,4 @@
-# Code Next Intro to Web Development Labs
+# Code Next Intro to Web Development Labs 💻🎨⚒️
 Welcome to the Code Next Web Development Club labs! These exercises are designed to give you hands-on practice with the core technologies of the web: HTML for structure and CSS for styling. Along the way you will also practice using AI tools like Gemini to strengthen and deepen your understanding of the web dev learning content.
 
 <br>
